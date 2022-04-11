@@ -9,3 +9,15 @@
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
 }
+
+:root {
+  --main-color: #5d73f3;
+  --body-color: #090a1a;
+  --heading-color: #222321;
+  --box-color: #0d0f26;
+  --bg-color: #fff;
+}
+body {
+  color: var(--bg-color);
+  background: var(--body-color);
+}

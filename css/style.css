@@ -16,6 +16,7 @@
   --heading-color: #222321;
   --box-color: #0d0f26;
   --bg-color: #fff;
+  --container-color: #171b3c;
 }
 body {
   color: var(--bg-color);
@@ -66,4 +67,9 @@ header {
   padding: 4px 8px;
   border-radius: 0.2rem;
   color: var(--bg-color);
+}
+.nav-link:hover {
+  color: var(--main-color);
+  background: var(--container-color);
+  transition: 0.3s all linear;
 }

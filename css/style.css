@@ -119,10 +119,31 @@ header {
   justify-content: center;
 }
 .home-img {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 100%;
   background-color: #ff3434;
   overflow: hidden;
   margin-bottom: 2rem;
+}
+.home-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+.home-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.home-text h3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  column-gap: 01.5rem;
+  font-size: 1.1rem;
+  color: var(--main-color);
 }

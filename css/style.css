@@ -167,3 +167,30 @@ header {
   height: 2px;
   background: var(--main-color);
 }
+.home-text h2 {
+  font-size: 3.5rem;
+  line-height: 4.8rem;
+}
+.home-text p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.social {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.social .bx {
+  font-size: 1.3rem;
+  padding: 10px;
+  border-radius: 50%;
+  color: var(--bg-color);
+  background: var(--container-color);
+}
+.social .bx:hover {
+  background: var(--main-color);
+  transition: 0.3s all linear;
+}
+.home-text .color {
+  color: var(--main-color);
+}

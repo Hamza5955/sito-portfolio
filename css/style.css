@@ -266,7 +266,7 @@ header {
 }
 .portfolio-overlay {
   position: absolute;
-  top: 0;
+  top: -100%;
   left: 0;
   width: 100%;
   height: 100%;
@@ -287,4 +287,12 @@ header {
   background: var(--main-color);
   color: var(--bg-color);
   border-radius: 4px;
+}
+.portfolio-overlay .bx:hover {
+  background: #ff3434;
+  transition: 0.3s all linear;
+}
+.portfolio-box:hover .portfolio-overlay {
+  top: 0;
+  transition: 0.5s all ease 0s;
 }

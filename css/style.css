@@ -234,3 +234,13 @@ header {
 .btn .bx {
   font-size: 1.2rem;
 }
+.btn:hover {
+  background: #a01616;
+  transition: 0.3s all linear;
+}
+.about-text p {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}

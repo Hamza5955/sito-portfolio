@@ -244,3 +244,12 @@ header {
   text-align: justify;
   margin-bottom: 1.5rem;
 }
+/* portfilio */
+
+.portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.portfolio-box {
+}

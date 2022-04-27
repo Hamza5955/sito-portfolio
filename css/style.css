@@ -47,7 +47,7 @@ header {
   z-index: 100;
 }
 .header-active {
-  background: blue;
+  background: var(--box-color);
   transition: 0.4s;
 }
 .nav {
@@ -366,5 +366,11 @@ header {
 @media (max-width: 892px) {
   section {
     padding: 2rem 0;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
   }
 }

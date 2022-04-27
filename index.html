@@ -126,10 +126,22 @@
     <!-- contact form -->
     <section class="contact container" id="contact">
       <h2 class="heading">Contact</h2>
-      <form action="" class="contact-form" id="contact-form">
-        <input type="text" placeholder="Nome" class="nome" required />
+      <form
+        action="POST"
+        data-netlify="true"
+        class="contact-form"
+        id="contact-form"
+      >
+        <input
+          type="text"
+          name="name"
+          placeholder="Nome"
+          class="nome"
+          required
+        />
         <input
           type="email"
+          name="email"
           placeholder="Email address..."
           class="nome"
           required
@@ -143,6 +155,9 @@
           class="message"
           required
         ></textarea>
+        <div class="field">
+          <div data-netlify-recaptcha="true"></div>
+        </div>
         <input type="submit" value="Send" class="send-btn" />
       </form>
     </section>

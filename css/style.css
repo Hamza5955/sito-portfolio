@@ -296,3 +296,21 @@ header {
   top: 0;
   transition: 0.5s all ease 0s;
 }
+/* contact form */
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  width: 100%;
+  display: grid;
+  row-gap: 1rem;
+}
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  padding: 15px;
+  color: var(--bg-color);
+  background: var(--box-color);
+  border-radius: 0.4rem;
+}

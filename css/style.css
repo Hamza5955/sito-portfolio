@@ -46,6 +46,10 @@ header {
   width: 100%;
   z-index: 100;
 }
+.header-active {
+  background: blue;
+  transition: 0.4s;
+}
 .nav {
   display: flex;
   align-items: center;
@@ -352,4 +356,15 @@ header {
 .footer-links a:hover {
   color: var(--main-color);
   transition: 0.3s all linear;
+}
+@media (max-width: 990px) {
+  .container {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+@media (max-width: 892px) {
+  section {
+    padding: 2rem 0;
+  }
 }
